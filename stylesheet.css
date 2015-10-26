@@ -1,0 +1,61 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+	width: 1000px;
+	margin: 0 auto 50px auto;
+	background: #FFFFFF;
+	font-family: 'Montserrat', sans-serrif;
+	line-height: 1.5em;
+}
+
+header {
+	width: 1000px;
+	background-color: #FFFFFF;
+	font-size: 32px;
+	text-align: center;
+	padding: 50px 50px 50px 0;
+	margin: 0 auto 0 auto;
+	position: fixed;
+	z-index: 1;
+}
+
+div {
+	position: fixed;
+	display: inline;
+	text-align: right;
+	margin-top: 150px;
+	padding: 0 25px 25px 25px;
+	width: 250px;
+	float: left;
+}
+
+#circle {
+	background-color: #101010;
+	margin: 0 0 5px auto;
+	text-align: center;
+	font-size: 56px;
+	font-weight: normal;
+	line-height: 2em;
+	color: #F0F0F0;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+}
+
+main {
+	margin-top: 150px;
+	width: 649px;
+	padding: 0 25px 25px 25px;
+	display: inline;
+	position: relative;
+	float: right;
+	border-left: 1px dotted #888888;
+}
+
+ul {
+    list-style-position: inside;
+}
