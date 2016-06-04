@@ -8,11 +8,16 @@
 	<meta name="description" content="Updated Resume." />
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
 <div class="resume-wrapper">
 	<section class="sidebar">
-		<div class="logo">
+		<div class="logo" onclick="lightBoxOn()">
+			<img src="./images/logo.svg">
+		</div>
+		<div id="lightBoxContainer">
+			<div id="lightboxBg" onclick="lightBoxOff()"></div>
 			<img src="./images/logo.svg">
 		</div>
 		<!--White break line-->
