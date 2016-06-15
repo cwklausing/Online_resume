@@ -141,9 +141,8 @@ main h3 {
 }
 
 .container hr {
-	width: 556px;
 	border: 2px solid black;
-	margin-bottom: 0;
+	margin: 0 50px;
 }
 
 /*Hover styling*/
