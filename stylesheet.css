@@ -33,7 +33,7 @@ a {
 
 /*Containers styling */
 .sidebar {
-	background-color: #007b89;
+	background-color: #013d54;
 	width: 33%;
 	float: left;
 	border-right: 4px solid black;
@@ -77,6 +77,10 @@ a {
 	padding: 50px;
 }
 
+.logo img:hover {
+	cursor: pointer;
+}
+
 .sidebar hr {
 	border: 2px solid white;
 	width: 69%;
@@ -87,7 +91,7 @@ a {
 	display: none;
 }
 #lightBoxContainer img {
-	background-color: #007b89;
+	background-color: #013d54;
 	position: absolute;
 	width: 33%;
 	top: 25%;
@@ -158,7 +162,7 @@ main h3 {
 }
 
 .awards:hover {
-	height: 240px;
+	height: 194px;
 }
 
 .profile:hover {
